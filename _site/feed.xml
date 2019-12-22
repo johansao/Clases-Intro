@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-22T10:57:50-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Primera Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Primera-Clase.html" rel="alternate" type="text/html" title="Primera Clase" /><published>2019-12-15T20:41:47-05:00</published><updated>2019-12-15T20:41:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Primera-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Primera-Clase.html">&lt;h1 id=&quot;fundamentos-de-la-ingenieria-de-software&quot;&gt;Fundamentos de la ingenieria de Software&lt;/h1&gt;
+
+&lt;p&gt;La ingeniería de software es una aplicación práctica del conocimiento científico para proveer metodologías y técnicas que ayuden a desarrollar sistemas de software a tiempo, y a su vez que aseguren que el desarrollador cumpla con las expectativas de calidad y permanezca dentro del presupuesto.&lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos-de-la-is&quot;&gt;Objetivos de la IS&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Diseñar programas informáticos que se adecúen a las exigencias de la sociedad.&lt;/li&gt;
+  &lt;li&gt;Liderar y acoplar el desarrollo de programaciones complicadas.&lt;/li&gt;
+  &lt;li&gt;Actuar en todas las fases del ciclo de vida de un producto.&lt;/li&gt;
+  &lt;li&gt;Computar los costos de un proyecto y evaluar los tiempos de desarrollo.&lt;/li&gt;
+  &lt;li&gt;Realizar el seguimiento de costes y plazos.&lt;/li&gt;
+  &lt;li&gt;Liderar equipos de trabajo de desarrollo software.&lt;/li&gt;
+  &lt;li&gt;Estructurar la elaboración de evidencias que comprueben el perfecto funcionamiento de los programas y que se adaptan a los requerimientos de análisis y diseño.&lt;/li&gt;
+  &lt;li&gt;Diseñar, construir y administrar bases de datos.&lt;/li&gt;
+  &lt;li&gt;Liderar y orientar a los programadores durante el desarrollo de aplicaciones.&lt;/li&gt;
+  &lt;li&gt;Incluir  procesos de calidad en los sistemas, calculando métricas e indicadores y chequeando la calidad del software producido.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;origen-de-is&quot;&gt;Origen de IS&lt;/h2&gt;
+&lt;p&gt;Ingeniería del Software, es el término utilizado por Fritz Bauer en la primera conferencia sobre desarrollo de software patrocinada por el Comité de Ciencia de la OTAN celebrada en Garmisch (Alemania), en octubre de 1968, previamente había sido utilizado por el holandés Edsger Dijkstra en su obra The Humble Programmer.
+Puede definirse según Alan Davis como “la aplicación inteligente de principios probados, técnicas, lenguajes y herramientas para la creación y mantenimiento, dentro de un coste razonable, de software que satisfaga las necesidades de los usuarios”.&lt;/p&gt;
+
+&lt;p&gt;Su origen se debió a que el entorno de desarrollo de sistemas software adolecía de:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Retrasos considerables en la planificación&lt;/li&gt;
+  &lt;li&gt;Poca productividad&lt;/li&gt;
+  &lt;li&gt;Elevadas cargas de mantenimiento&lt;/li&gt;
+  &lt;li&gt;Demandas cada vez más desfasadas frente a las ofertas&lt;/li&gt;
+  &lt;li&gt;Baja calidad y fiabilidad del producto&lt;/li&gt;
+  &lt;li&gt;Dependencia de los realizadores&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Esto es lo que se ha denominado habitualmente “crisis del software”, que históricamente se generó en los siguientes pasos:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Primera Fase. Los albores (1945-1955)
+    &lt;ul&gt;
+      &lt;li&gt;Programar no es una tarea diferenciada del diseño de una máquina.&lt;/li&gt;
+      &lt;li&gt;Uso de lenguaje máquina y ensamblador.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Segunda Fase. El florecimiento (1955-1965)
+    &lt;ul&gt;
+      &lt;li&gt;Aparecen multitud de lenguajesSe pensaba que era posible hacer casi todo.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tercera Fase. La crisis (1965-1970)
+    &lt;ul&gt;
+      &lt;li&gt;Desarrollo inacabable de grandes programasIneficiencia, errores, coste impredecible&lt;/li&gt;
+      &lt;li&gt;Nada es posible.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cuarta Fase. Innovación conceptual (1970-1980)
+    &lt;ul&gt;
+      &lt;li&gt;Fundamentos de programación&lt;/li&gt;
+      &lt;li&gt;Verificación de programas&lt;/li&gt;
+      &lt;li&gt;Metodologías de diseño.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Quinta Fase. El diseño es el problema (1980-?)
+    &lt;ul&gt;
+      &lt;li&gt;Entornos de programación&lt;/li&gt;
+      &lt;li&gt;Especificación formal&lt;/li&gt;
+      &lt;li&gt;Programación automática.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;la-evolución-del-software&quot;&gt;La evolución del software&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;El término “evolución” del software se utiliza desde los sesenta para denominar la dinámica de crecimiento del software. &lt;/li&gt;
+  &lt;li&gt;Una definición atribuida a Lehman y Ramil dice que la evolución del software es “todas las actividades de programación que se orientan a generar una nueva versión de un software a partir de una versión anterior operativa. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;la-crisis-del-software&quot;&gt;La crisis del software&lt;/h2&gt;
+&lt;h3 id=&quot;cómo-se-define-crisis&quot;&gt;¿Cómo se define crisis?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;La palabra crisis se define en el diccionario como “un punto decisivo en el curso de algo; momento, etapa, o evento decisivo o crucial”. Sin embargo para el software no ha habido ningún punto crucial, sólo una lenta evolución.&lt;/li&gt;
+  &lt;li&gt;La crisis en la industria del software permanece durante muchos años, lo cual parece una contradicción para el término. Lo que si se podría decir es que hay un problema crónico en el desarrollo de software.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;la-crisis-del-software-1&quot;&gt;La crisis del software&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Actualmente está surgiendo una gran expectativa ante la evolución de la Ingeniería del Software, al ir apareciendo nuevos métodos y herramientas formales que van a permitir en el futuro un planteamiento de ingeniería en el proceso de elaboración de software.&lt;/li&gt;
+  &lt;li&gt;Dicho planteamiento permitirá dar respuesta a los problemas de:
+    &lt;ul&gt;
+      &lt;li&gt;Administración&lt;/li&gt;
+      &lt;li&gt;Calidad&lt;/li&gt;
+      &lt;li&gt;Productividad&lt;/li&gt;
+      &lt;li&gt;Fácil mantenimiento&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Este último es uno de los grandes problemas, pues puede llegar a suponer un importe superior al 60% del total del coste del software.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;por-qué-se-crea-la-is&quot;&gt;¿Por qué se crea la IS?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;La ingeniería de software se crea debido a las siguientes características:&lt;/li&gt;
+  &lt;li&gt;El producto debe ser confiable y realizar sólo las tareas especificadas en los requerimientos. &lt;/li&gt;
+  &lt;li&gt;El producto debe ser robusto. Esto quiere decir que el software se comporta de manera razonable, incluso en circunstancias no anticipadas desde el principio. &lt;/li&gt;
+  &lt;li&gt;El producto de software debe ser lo más reutilizable posible, de manera tal que pueda ser incorporado en otro producto de software si se requiere. &lt;/li&gt;
+  &lt;li&gt;El producto de software debe ser eficiente en el uso de los recursos del sistema.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;el-software-en-la-actualidad&quot;&gt;El software en la actualidad&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Las direcciones en las que evoluciona la ingeniería del software hoy en día pueden agruparse de la siguiente manera:&lt;/li&gt;
+  &lt;li&gt;Metodologías ágiles: métodos de desarrollo de software basados en procesos iterativos e incrementales, donde los requisitos y soluciones evolucionan durante la colaboración.Metodologías como Scrum (1995), Extreme Programming (1999) o DSDM (1995) fueron evolucionando hasta que en Febrero del 2001 se publicó “Manifesto for Agile Software Development” para definir la aproximación ahora conocida como metodologías ágiles.&lt;/li&gt;
+  &lt;li&gt;Experimentación: es una rama de la ingeniería del software interesada en realizar experimentos sobre software, recolectar datos y deducir leyes y teorías de los mismos.&lt;/li&gt;
+  &lt;li&gt;Desarrollo dirigido por modelos: primero se desarrollan modelos textuales  gráficos del software a construir, y posteriormente se construye el software.&lt;/li&gt;
+  &lt;li&gt;Líneas de productos software, en lugar de productos individuales.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Fundamentos de la ingenieria de Software</summary></entry><entry><title type="html">Segunda Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Segunda-Clase.html" rel="alternate" type="text/html" title="Segunda Clase" /><published>2019-12-15T20:40:47-05:00</published><updated>2019-12-15T20:40:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Segunda-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Segunda-Clase.html">&lt;h1 id=&quot;proceso-de-ingenieria-de-software&quot;&gt;Proceso de ingenieria de software&lt;/h1&gt;
+
+&lt;h2 id=&quot;factores-de-calidad-del-software&quot;&gt;Factores de calidad del software&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Concepto de Calidad: Conjunto de propiedades y de características de un producto o servicio, que le confieren aptitud para satisfacer una necesidad explícita o implícita (ISO 8402).&lt;/li&gt;
+  &lt;li&gt;Calidad del Software: Es el grado con el que un sistema, componente o proceso cumple los requerimientos especificados y las necesidades o expectativas del cliente o usuario.&lt;/li&gt;
+  &lt;li&gt;Factores que determinan la calidad del software.&lt;/li&gt;
+  &lt;li&gt;Se pueden clasificar en dos grandes grupos (Pressman):
+    &lt;ul&gt;
+      &lt;li&gt;Medidas Directas: La medida o medición decimos que es directa, cuando disponemos de un instrumento de medida que nos muestra un resultado (generalmente numérico).&lt;/li&gt;
+      &lt;li&gt;Medidas Indirectas: Cuando hablamos de sistemas informáticos no siempre es posible realizar una medida directa, porque no disponemos del instrumento adecuado que nos permita realizar esa medición&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Entre las métricas del software tenemos las siguientes:
+    &lt;ol&gt;
+      &lt;li&gt;Métricas técnicas: Se centran en las características del software. Aquí medimos la complejidad lógica y el grado de modularidad del sistema. Mide la estructura del sistema, el cómo está hecho.&lt;/li&gt;
+      &lt;li&gt;Métricas de calidad: Son todas las métricas de software que definen de una u otra forma la calidad del software; tales como corrección, exactitud, integridad, facilidad de uso, estructuración o modularidad, pruebas, facilidad de mantenimiento, reusabilidad, cohesión del módulo, acoplamiento del módulo, etc.&lt;/li&gt;
+      &lt;li&gt;Métricas de Productividad: Se centran en el rendimiento del proceso de la ingeniería del software. Es decir qué tan productivo va a ser el software que voy a diseñar. Se refiere a las características del software.&lt;/li&gt;
+      &lt;li&gt;Métricas de costo: se centra en el costo total del sistema informático.&lt;/li&gt;
+      &lt;li&gt;Métricas orientadas al tamaño: Esta nos permite conocer el tiempo en el que se terminará el software y cuántas personas se necesitan para su desarrollo, aquí medimos las variables con las que desarrollamos el software.&lt;/li&gt;
+      &lt;li&gt;Métricas orientadas a la función o puntos de función
+        &lt;ul&gt;
+          &lt;li&gt;Son medidas indirectas del software y del proceso por el cual se desarrolla. En lugar de calcular las líneas de código (LDC), las métricas de función se centran en la funcionalidad o utilidad del programa. Los puntos de función nos indican la medida de la productividad.&lt;/li&gt;
+          &lt;li&gt;Los puntos de función se obtienen utilizando una función empírica basado en medidas cuantitativas del dominio de información del software y valoraciones subjetivas de la complejidad del software.
+            &lt;h2 id=&quot;problemas-en-el-desarrollo-de-software&quot;&gt;Problemas en el desarrollo de software&lt;/h2&gt;
+            &lt;h3 id=&quot;que-es-un-proyecto-software&quot;&gt;¿Que´ es un proyecto software?&lt;/h3&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Haciendo uso de la definicio´n de proyecto de la gui´a del PMBOK, y adapta´ndola a un proyecto software, podri´amos definirlo como:&lt;/li&gt;
+  &lt;li&gt;“Un proyecto software es un esfuerzo temporal que se lleva a cabo para crear un producto software, servicio TI o resultado u´nico.”&lt;/li&gt;
+  &lt;li&gt;¿Pero que es el software? Segu´n la definicio´n del IEEE, “software es la suma total de los programas de ordenador, procedimientos, reglas, la documentacio´n asociada y los datos que pertenecen a un sistema de co´mputo”, y “un producto de software es un producto disen~ado para un usuario”.
+    &lt;h3 id=&quot;el-software-puede-dividirse-en-dos-grandes-categorias&quot;&gt;El software puede dividirse en dos grandes categori´as:&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Software de aplicaciones: se usan para proveer servicios a clientes y ejecutar negocios de forma ma´s eficiente. El software de aplicaciones puede ser un sistema pequen~o o uno grande integrado. Como ejemplos de este tipo de software estari´an un sistema de cuentas, un sistema de planificacio´n de recursos…&lt;/li&gt;
+  &lt;li&gt;Software de sistemas: El software de sistemas se usa para operar y mantener un sistema informa´tico. Permite a los usuarios usar los recursos del ordenador directamente y a trave´s de otro software. Algunos ejemplos de este tipo de software son los sistemas operativos, compiladores y otras utilidades del sistema.
+    &lt;h2 id=&quot;ingenieria-del-software&quot;&gt;Ingenieri´a del software&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Los proyectos software tienen caracteri´sticas especi´ficas que los hacen diferentes de otros proyectos de ingenieri´a.&lt;/li&gt;
+  &lt;li&gt;La Ingenieri´a del Software es la rama de la ingenieri´a que crea y mantiene las aplicaciones de software usando tecnologi´as y pra´cticas de las ciencias de la computacio´n, manejo de proyectos, ingenieri´a, el a´mbito de la aplicacio´n, y otros campos.&lt;/li&gt;
+  &lt;li&gt;¿Por que´ el software es diferente a cualquier otro proceso de fabricacio´n? Podri´amos identificar los siguientes motivos:&lt;/li&gt;
+  &lt;li&gt;El software se desarrolla, no se fabrica en el sentido cla´sico de la palabra. Ambas actividades se dirigen a la construccio´n de un “producto”, pero los me´todos son diferentes. Los costes del software se encuentran en la ingenieri´a, esto implica que los proyectos no se pueden gestionar como si lo fueran de fabricacio´n.&lt;/li&gt;
+  &lt;li&gt;En el software, el recurso principal son las personas. No es siempre posible acelerar la construccio´n de software an~adiendo personas porque la construccio´n de software requiere un esfuerzo en equipo. El equipo tiene que trabajar de forma coordinada y compartir un objetivo de proyecto comu´n. Se necesita comunicacio´n efectiva dentro del equipo.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Proceso de ingenieria de software</summary></entry><entry><title type="html">Tercera Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Tercera-Clase.html" rel="alternate" type="text/html" title="Tercera Clase" /><published>2019-12-15T20:39:47-05:00</published><updated>2019-12-15T20:39:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Tercera-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Tercera-Clase.html">&lt;h1 id=&quot;visión-general-del-proceso-de-ingeniería-del-software&quot;&gt;Visión general del proceso de ingeniería del software&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Con independencia del área, tamaño o complejidad del proyecto, cualquier proyecto se encontrará al menos en una de las siguientes fases:&lt;/li&gt;
+  &lt;li&gt;Definición ~ Análisis (del sistema, del sw).&lt;/li&gt;
+  &lt;li&gt;Desarrollo ~ Diseño, codificación, prueba.&lt;/li&gt;
+  &lt;li&gt;Mantenimiento.
+    &lt;h2 id=&quot;definición&quot;&gt;Definición&lt;/h2&gt;
+    &lt;h3 id=&quot;qué-debe-hacer-el-sistema&quot;&gt;¿Qué debe hacer el sistema?&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Información que ha de manejar el sistema.&lt;/li&gt;
+  &lt;li&gt;Necesidades de rendimiento.&lt;/li&gt;
+  &lt;li&gt;Restricciones de diseño.&lt;/li&gt;
+  &lt;li&gt;Interfaces del sistema con los usuarios y con otros sistemas.&lt;/li&gt;
+  &lt;li&gt;Criterios de validación.
+    &lt;h2 id=&quot;desarrollo&quot;&gt;Desarrollo&lt;/h2&gt;
+    &lt;h3 id=&quot;cómo-construir-el-sistema&quot;&gt;¿Cómo construir el sistema?&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Se diseñan las estructuras de los datos y los programas.
+    &lt;ul&gt;
+      &lt;li&gt;Como se caracterizan las interfaces.&lt;/li&gt;
+      &lt;li&gt;Como realizar el paso del diseño al lenguaje de programación.&lt;/li&gt;
+      &lt;li&gt;Como ha de realizarse la prueba.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Se escriben y documentan los programas.&lt;/li&gt;
+  &lt;li&gt;Y se prueba el software construido.
+    &lt;h2 id=&quot;mantenimiento&quot;&gt;Mantenimiento&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Comienza una vez construido el sistema.&lt;/li&gt;
+  &lt;li&gt;Se centra en el cambio.&lt;/li&gt;
+  &lt;li&gt;El software es sometido a reparaciones y modificaciones cada vez que se detecta un fallo o se necesita cubrir una nueva necesidad de los usuarios.&lt;/li&gt;
+  &lt;li&gt;En esta fase recae el mayor porcentaje del costo de un sistema.&lt;/li&gt;
+  &lt;li&gt;Un buen sistema no es sólo un conjunto de programas que funcionan bien =&amp;gt; Debe ser fácil de mantener
+    &lt;h2 id=&quot;mantenimiento-1&quot;&gt;Mantenimiento&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tipos de mantenimiento.
+    &lt;ul&gt;
+      &lt;li&gt;Correctivo. El programa no funciona correctamente, hay que modificarlo.&lt;/li&gt;
+      &lt;li&gt;Perfectivo. Se modifica el programa para obtener más eficiencia o nuevas funcionalidades no especificadas en la definición del sistema.&lt;/li&gt;
+      &lt;li&gt;Adaptativo. Adaptar el programa a los cambios en su entorno (cambio de SO, de CPU, de legislación, …)&lt;/li&gt;
+      &lt;li&gt;Preventivo. El software se deteriora con los cambios, este mantenimiento hace cambios para que los programas se puedan corregir, adaptar y mejorar más rápidamente -&amp;gt; Reingeniería del SW.
+        &lt;h2 id=&quot;responsabilidad-ética-y-profesional-en-ingeniería-del-software&quot;&gt;Responsabilidad ética y profesional en ingeniería del software&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;La IS se realiza dentro de un marco social y legal que limita la libertad de la gente que trabaja en dicha área.&lt;/li&gt;
+  &lt;li&gt;Los ingenieros de software:
+    &lt;ul&gt;
+      &lt;li&gt;Deben aceptar que su labor implica responsabilidades mayores que la simple aplicación de habilidades técnicas.&lt;/li&gt;
+      &lt;li&gt;Deben comportarse de forma ética y moralmente responsable para ser respetado como un ingeniero profesional.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Existen áreas donde los estándares de comportamiento aceptable no están acotados por las leyes, sino por la responsabilidad profesional, algunas de estas son:
+    &lt;ul&gt;
+      &lt;li&gt;Confidencialidad. Respetar la confidencialidad de sus empleadores o clientes, independientemente de que se haya firmado un acuerdo formal de confidencialidad.&lt;/li&gt;
+      &lt;li&gt;Competencia. No debe falsificar su nivel de competencia, ni aceptar conscientemente trabajos que están fuera de su capacidad.&lt;/li&gt;
+      &lt;li&gt;Derechos de propiedad intelectual. Debe ser consciente de las leyes locales que gobiernan el uso de la propiedad intelectual, como las patentes el el copyright. Debe asegurarse de que la propiedad intelectual de los empleadores y clientes está protegida.&lt;/li&gt;
+      &lt;li&gt;Uso inapropiado de las computadoras. No debe emplear sus habilidades técnicas para utilizar de forma inapropiada las computadoras de otras personas. Desde los relativamente triviales (utilizar juegos en las maquina de un empleado, por ejemplo) hasta los extremadamente serios (difusión de virus).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Código de ética (ACM/IEEE)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Los ingenieros de software deberán comprometerse consigo mismo en convertir el análisis, especificación, diseño, desarrollo, prueba y mantenimiento de software en una profesión respetable y beneficiosa.&lt;/li&gt;
+  &lt;li&gt;De acuerdo con su compromiso con la salud, seguridad y bienestar del público, los ingenieros de software deberán apegarse a ocho principios.
+##Principios del código&lt;/li&gt;
+  &lt;li&gt;Público. Los ingenieros de software deberán actuar consistentemente con el interés público.&lt;/li&gt;
+  &lt;li&gt;Cliente y Empleador. Los ingenieros de software deberán actuar de una forma determinada que esté en los mejores intereses de su cliente y empleador consistente con el interés público.&lt;/li&gt;
+  &lt;li&gt;Producto. Los ingenieros de software deberán asegurar que sus productos y modificaciones relacionadas logren el más alto estándar profesional posible.&lt;/li&gt;
+  &lt;li&gt;Juicio. Los ingenieros de software deberán mantener integridad e independencia al emitir su juicio profesional.&lt;/li&gt;
+  &lt;li&gt;Gerencia. Los gerentes y lideres de ingeniería de software deberán suscribirse y promocionar un enfoque ético para la gerencia de desarrollo y mantenimiento del software.&lt;/li&gt;
+  &lt;li&gt;Profesión. Los ingenieros de software deberán fomentar la integridad y reputación de la profesión consistente con el interés público.&lt;/li&gt;
+  &lt;li&gt;Colegas. Los ingenieros de software deberán ser justos y comprensivos con sus colegas.&lt;/li&gt;
+  &lt;li&gt;Interés Propio. Los ingenieros de software deberán participar en el aprendizaje de por vida del ejercicio de su profesión y deberán promover un enfoque ético para el ejercicio de la misma.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Visión general del proceso de ingeniería del software</summary></entry><entry><title type="html">Cuarta Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Cuarta-Clase.html" rel="alternate" type="text/html" title="Cuarta Clase" /><published>2019-12-15T20:38:47-05:00</published><updated>2019-12-15T20:38:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Cuarta-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Cuarta-Clase.html">&lt;h1 id=&quot;sistema-de-informacion&quot;&gt;Sistema de informacion&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Un sistema de información es un conjunto de elementos interrelacionados con el propósito de prestar atención a las demandas de información de una organización, para elevar el nivel de conocimientos que permitan un mejor apoyo a la toma de decisiones y desarrollo de acciones (Peña, 2006).&lt;/li&gt;
+  &lt;li&gt;Conjunto de elementos que interactúan entre sí con el fin de apoyar las actividades de una empresa o negocio. Teniendo muy en cuenta el equipo computacional necesario para que el sistema de información pueda operar y el recurso humano que interactúa con el Sistema de Información, el cual está formado por las personas que utilizan el sistema.&lt;/li&gt;
+  &lt;li&gt;Un sistema de información realiza cuatro actividades básicas: entrada, almacenamiento, procesamiento y salida de información (Peralta, 2008).&lt;/li&gt;
+  &lt;li&gt;Entrada de Información: Es el proceso mediante el cual el Sistema de Información toma los datos que requiere para procesar la información.&lt;/li&gt;
+  &lt;li&gt;Almacenamiento de información: El almacenamiento es una de las actividades o capacidades más importantes que tiene una computadora, ya que a través de esta propiedad el sistema puede recordar la información guardada en la sección o proceso anterior.&lt;/li&gt;
+  &lt;li&gt;Procesamiento de Información: Es la capacidad del Sistema de Información para efectuar cálculos de acuerdo con una secuencia de operaciones preestablecida. &lt;/li&gt;
+  &lt;li&gt;Salida de Información: La salida es la capacidad de un Sistema de Información para sacar la información procesada o bien datos de entrada al exterior. 
+##Tipos de sistemas de información&lt;/li&gt;
+  &lt;li&gt;Los sistemas de información, de manera general se pueden clasificar de tres formas según sus propósitos generales, en este sentido Peralta (2008) clasifica los sistemas de información en tres tipos fundamentales: (1) Sistemas transaccionales; (2) Sistemas de Soporte a la Toma de Decisiones, Sistemas para la Toma de Decisión de Grupo, Sistemas Expertos de Soporte a la Toma de Decisiones y Sistema de Información para Ejecutivos y (3) Sistemas estratégicos.&lt;/li&gt;
+  &lt;li&gt;Sistemas transaccionales: Son Sistemas de Información que logran la automatización de procesos operativos dentro de una organización ya que su función primordial consiste en procesar transacciones tales como pagos, cobros, entradas, salidas, etc.&lt;/li&gt;
+  &lt;li&gt;Sistemas de Soporte a la Toma de Decisiones, Sistemas para la Toma de Decisión de Grupo, Sistemas Expertos de Soporte a la Toma de Decisiones y Sistema de Información para Ejecutivos: Son Sistemas de Información que apoyan el proceso de toma de decisiones.&lt;/li&gt;
+  &lt;li&gt;Sistemas Estratégicos: Son sistemas de información desarrollado en las organizaciones con el fin de lograr ventajas competitivas, a través del uso de la tecnología de información.&lt;/li&gt;
+  &lt;li&gt;Manuales: cuando el hombre auxiliado por cierto equipo (máquinas de escribir, sumadoras, archivos, etc.) realiza las principales funciones de recopilación, registro, almacenamiento, cálculo y generación de información.&lt;/li&gt;
+  &lt;li&gt;Mecanizadas: cuando cierta maquinaria realiza las principales funciones de procesamiento. Para los sistemas mecanizados que hacen uso de un computador, de acuerdo al tipo de interacción Hombre-Máquina, los sistemas de información pueden ser de dos tipos (Batch y en Línea]:
+    &lt;ul&gt;
+      &lt;li&gt;Batch: el usuario proporciona los datos necesarios para la ejecución de un proceso y espera a que el computador termine la tarea para recibir los resultados;&lt;/li&gt;
+      &lt;li&gt;En Línea: existe un diálogo directo entre el usuario y el computador durante la ejecución de un proceso.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Procesos centralizados: los recursos se encuentran ubicados en un área física determinada, por lo que su acceso se realiza en las misma instalación o desde lugares retirados, mediante líneas de comunicación de datos (telefónicas, microondas, satélite, etc.).&lt;/li&gt;
+  &lt;li&gt;Proceso distribuido: los recursos se encuentran diseminados en diversos lugares de una zona territorial (ciudad, país, continente, etc.), por lo que el procesamiento se realiza en el propio lugar donde se originan los datos, existiendo la posibilidad de compartir información entre las diversas instalaciones, mediante la información de una “Red de Comunicación”.
+    &lt;h2 id=&quot;elementos-de-un-sistema-de-información&quot;&gt;Elementos de un sistema de información&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Los sistemas de información, según Peña (2006), tienen 5 elementos importantes, estos son:
+    &lt;ul&gt;
+      &lt;li&gt;Financieros&lt;/li&gt;
+      &lt;li&gt;Administrativos&lt;/li&gt;
+      &lt;li&gt;Humanos&lt;/li&gt;
+      &lt;li&gt;Materiales&lt;/li&gt;
+      &lt;li&gt;Tecnológicos&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Base de Datos: Es donde se almacena toda la información que se requiere para la toma de decisiones. La información se organiza en registros específicos e identificables;&lt;/li&gt;
+  &lt;li&gt;Transacciones: Corresponde a todos los elementos de interfaz que permiten al usuario: consultar, agregar, modificar o eliminar un registro específico de Información;&lt;/li&gt;
+  &lt;li&gt;Informes: Corresponden a todos los elementos de interfaz mediante los cuales el usuario puede obtener uno o más registros y/o información de tipo estadístico (contar, sumar) de acuerdo a criterios de búsqueda y selección definidos.&lt;/li&gt;
+  &lt;li&gt;Los restantes elementos de un sistema de información son:&lt;/li&gt;
+  &lt;li&gt;Procesos: Corresponden a todos aquellos elementos que, de acuerdo a una lógica predefinida, obtienen información de la base de datos y generan nuevos registros de información. Los procesos sólo son controlados por el usuario (de ahi que aparezca en línea de puntos);&lt;/li&gt;
+  &lt;li&gt;Usuario: Identifica a todas las personas que interactúan con el sistema, esto incluye desde el máximo nivel ejecutivo que recibe los informes de estadísticas procesadas, hasta el usuario operativo que se encarga de recolectar e ingresar la información al sistema y&lt;/li&gt;
+  &lt;li&gt;Procedimientos Administrativos: Corresponde al conjunto de reglas y políticas de la organización, que rigen el comportamiento de los usuarios frente al sistema. Particularmente, debieran asegurar que nunca, bajo ninguna circunstancia un usuario tenga acceso directo a la Base de Datos.&lt;/li&gt;
+  &lt;li&gt;Procedimientos Administrativos: Corresponde al conjunto de reglas y políticas de la organización, que rigen el comportamiento de los usuarios frente al sistema. Particularmente, debieran asegurar que nunca, bajo ninguna circunstancia un usuario tenga acceso directo a la Base de Datos.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Sistema de informacion</summary></entry><entry><title type="html">Quinta Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Quinta-Clase.html" rel="alternate" type="text/html" title="Quinta Clase" /><published>2019-12-15T20:37:47-05:00</published><updated>2019-12-15T20:37:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Quinta-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Quinta-Clase.html">&lt;h1 id=&quot;proceso-de-software&quot;&gt;Proceso de software&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Un conjunto estructurado de actividades necesarias para desarrollar un sistema de software.&lt;/li&gt;
+  &lt;li&gt;Muchos de los procesos de software son diferentes, pero todos implican:
+    &lt;ul&gt;
+      &lt;li&gt;Especificación;&lt;/li&gt;
+      &lt;li&gt;Diseño e implementación;&lt;/li&gt;
+      &lt;li&gt;Validación;&lt;/li&gt;
+      &lt;li&gt;Evolución.
+##Características del proceso de SW&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cualquier proceso tiene las siguientes características:&lt;/li&gt;
+  &lt;li&gt;El proceso establece todas las actividades principales&lt;/li&gt;
+  &lt;li&gt;El proceso utiliza recursos, está sujeto a una serie de restricciones y genera productos intermedios y finales&lt;/li&gt;
+  &lt;li&gt;El proceso puede estar compuesto de subprocesos que se encadenan de alguna manera. Puede definirse como una jerarquía de procesos organizada de modo que cada subproceso tenga su propio modelo de proceso&lt;/li&gt;
+  &lt;li&gt;Cada actividad del proceso tiene criterios de entrada y de salida, de modo que se conoce cuándo comienza y cuándo termina una actividad&lt;/li&gt;
+  &lt;li&gt;Las actividades se organizan en secuencia de modo que resulta claro cuando una actividad se realiza en orden relativo a otras actividades&lt;/li&gt;
+  &lt;li&gt;Todo proceso tiene un conjunto de principios orientadores que explican las metas de cada actividad&lt;/li&gt;
+  &lt;li&gt;Las restricciones o controles pueden aplicarse a una actividad, recurso o producto
+    &lt;h3 id=&quot;otras-características-del-proceso-de-sw&quot;&gt;Otras características del proceso de SW&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;comprensión&quot;&gt;Comprensión&lt;/h4&gt;
+&lt;p&gt;Está definido y es comprensible&lt;/p&gt;
+&lt;h4 id=&quot;visibilidad&quot;&gt;Visibilidad&lt;/h4&gt;
+&lt;p&gt;Se visualizan los progresos externamente&lt;/p&gt;
+&lt;h4 id=&quot;soporte&quot;&gt;Soporte&lt;/h4&gt;
+&lt;p&gt;Está soportado por herramientas CASE&lt;/p&gt;
+&lt;h4 id=&quot;aceptación&quot;&gt;Aceptación&lt;/h4&gt;
+&lt;p&gt;Es aceptable para todos los actores implicados&lt;/p&gt;
+&lt;h4 id=&quot;confianza&quot;&gt;Confianza&lt;/h4&gt;
+&lt;p&gt;Los errores del proceso se detectan antes de que se produzcan errores en el producto&lt;/p&gt;
+&lt;h4 id=&quot;robustez&quot;&gt;Robustez&lt;/h4&gt;
+&lt;p&gt;Se puede continuar a pesar de problemas inesperados&lt;/p&gt;
+&lt;h4 id=&quot;capacidad-de-mantenimiento&quot;&gt;Capacidad de mantenimiento&lt;/h4&gt;
+&lt;p&gt;Puede ajustarse a las necesidades de cambio de la organización&lt;/p&gt;
+&lt;h4 id=&quot;rapidez&quot;&gt;Rapidez&lt;/h4&gt;
+&lt;p&gt;Con qué “velocidad” se producen los sistemas&lt;/p&gt;
+&lt;h4 id=&quot;adaptación&quot;&gt;Adaptación&lt;/h4&gt;
+&lt;p&gt;Capacidad que tiene un usuario del mismo de adaptarlo a sus necesidades&lt;/p&gt;
+&lt;h2 id=&quot;importancia-del-proceso-de-sw&quot;&gt;Importancia del proceso de SW&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Un proceso software debe especificar:
+    &lt;ul&gt;
+      &lt;li&gt;La secuencia de actividades a realizar por el equipo de desarrollo
+        &lt;ul&gt;
+          &lt;li&gt;Flujo de actividades&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Los productos que deben crearse
+        &lt;ul&gt;
+          &lt;li&gt;Resultados del trabajo (modelos, documentos, datos informes…)&lt;/li&gt;
+          &lt;li&gt;Qué y cuándo&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;La asignación de tareas a cada miembro del equipo y al equipo como un todo&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Los criterios para controlar el proceso
+    &lt;ul&gt;
+      &lt;li&gt;Se establece el control de gestión de los proyectos software&lt;/li&gt;
+      &lt;li&gt;Establecimiento de hitos&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Las posibles heurísticas&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Facilita la gestión del proyecto&lt;/li&gt;
+  &lt;li&gt;Establece una división del trabajo&lt;/li&gt;
+  &lt;li&gt;Facilita la comunicación de los miembros del equipo&lt;/li&gt;
+  &lt;li&gt;Permite la reasignación y la reutilización de personal especializado
+    &lt;ul&gt;
+      &lt;li&gt;Transferencia entre proyectos&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mejora la productividad y el desarrollo
+    &lt;ul&gt;
+      &lt;li&gt;El desarrollo es reproducible&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Establece el contexto en el que se aplican los métodos técnicos&lt;/li&gt;
+  &lt;li&gt;Gestiona el cambio adecuadamente&lt;/li&gt;
+  &lt;li&gt;Asegura la calidad&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Proceso de software</summary></entry><entry><title type="html">Sexta Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Sexta-Clase.html" rel="alternate" type="text/html" title="Sexta Clase" /><published>2019-12-15T20:36:47-05:00</published><updated>2019-12-15T20:36:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Sexta-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Sexta-Clase.html">&lt;h2 id=&quot;estándares-relacionados-con-el-proceso-de-sw&quot;&gt;Estándares relacionados con el proceso de SW&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Estándar ISO/IEC/IEEE 12207:2017
+    &lt;ul&gt;
+      &lt;li&gt;El estándar ISO/IEC/IEEE 12207:2017 [ISO/IEC/IEEE, 2017] relativo a los procesos del ciclo de vida del software&lt;/li&gt;
+      &lt;li&gt;Se aplica a la adquisición de sistemas de software , productos y servicios, al suministro, desarrollo, operación, mantenimiento y eliminación de productos de software o componentes de software de cualquier sistema, ya sea que se realice interna o externamente a una organización.&lt;/li&gt;
+      &lt;li&gt;Se incluyen aquellos aspectos de la definición del sistema necesarios para proporcionar el contexto de los productos y servicios de software&lt;/li&gt;
+      &lt;li&gt;También proporciona procesos que pueden emplearse para definir, controlar y mejorar los procesos del ciclo de vida del software dentro de una organización o de un proyecto&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Estándar ISO/IEC/IEEE 12207:2017
+    &lt;ul&gt;
+      &lt;li&gt;Esta norma no fomenta o especifica ningún modelo concreto de ciclo de vida, gestión del software o método de ingeniería, ni prescribe cómo realizar ninguna de las actividades&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Estándares relacionados con el proceso de SW</summary></entry><entry><title type="html">Sextima Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Sextima-Clase.html" rel="alternate" type="text/html" title="Sextima Clase" /><published>2019-12-15T20:35:47-05:00</published><updated>2019-12-15T20:35:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Sextima-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Sextima-Clase.html">&lt;h1 id=&quot;ciclo-de-vida-del-sw&quot;&gt;Ciclo de vida del SW&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cuando un proceso implica la construcción de algún producto, suele referirse al proceso como un ciclo de vida
+    &lt;ul&gt;
+      &lt;li&gt;El proceso de desarrollo de software suele denominarse ciclo de vida del software&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;La evolución del software representa el ciclo de actividades involucradas en el desarrollo, uso y mantenimiento de sistemas software [Scacchi, 1987].&lt;/li&gt;
+  &lt;li&gt;Los proyectos software se desarrollan en una serie de fases
+    &lt;ul&gt;
+      &lt;li&gt;Van desde la concepción del software y su desarrollo inicial hasta su puesta en funcionamiento y posterior retirada por otra nueva generación de software&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Estas fases pueden ser
+    &lt;ul&gt;
+      &lt;li&gt;Temporales
+        &lt;ul&gt;
+          &lt;li&gt;Forman una secuencia en el tiempo&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Lógicas
+        &lt;ul&gt;
+          &lt;li&gt;Cuando representan pasos o etapas que no constituyen una secuencia temporal&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Se puede definir ciclo de vida del software como&lt;/li&gt;
+  &lt;li&gt;Las distintas fases por las que pasa el software desde que nace una necesidad de mecanizar un proceso hasta que deja de utilizarse el software que sirvió para ese objetivo, pasando por las fases de desarrollo y explotación [Frakes et al., 1991]&lt;/li&gt;
+  &lt;li&gt;El período de tiempo que comienza cuando se concibe un producto software y finaliza cuando el producto pierde su utilidad. El ciclo de vida del software incluye las siguientes fases: fase de requisitos, fase de diseño, fase de realización, fase de pruebas, fase de instalación y aceptación, fase de operación y mantenimiento y, algunas veces, fase de retirada [AECC, 1986]&lt;/li&gt;
+  &lt;li&gt;Se puede definir ciclo de desarrollo del software como:&lt;/li&gt;
+  &lt;li&gt;El período de tiempo que comienza con la decisión de desarrollar un producto software y finaliza cuando se ha entregado éste. Este ciclo incluye, en general, una fase de requisitos, una fase de diseño, una fase de implantación, una fase de pruebas, y a veces, una fase de instalación y aceptación [AECC, 1986]&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Ciclo de vida del SW</summary></entry><entry><title type="html">Octava Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Octava-Clase.html" rel="alternate" type="text/html" title="Octava Clase" /><published>2019-12-15T20:34:47-05:00</published><updated>2019-12-15T20:34:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Octava-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Octava-Clase.html">&lt;h1 id=&quot;ámbito-general-del-ciclo-de-vida-del-sw&quot;&gt;Ámbito general del ciclo de vida del SW&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Desde un punto de vista general puede considerarse que el ciclo de vida de un software tiene tres etapas claramente diferenciadas:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Planificacio´n: idearemos un planeamiento detallado que gui´e la gestio´n del proyecto, temporal y econo´micamente.&lt;/li&gt;
+  &lt;li&gt;Implementacio´n: acordaremos el conjunto de actividades que componen la realizacio´n del producto.&lt;/li&gt;
+  &lt;li&gt;Puesta en produccio´n: nuestro proyecto entra en la etapa de definicio´n, alli´ donde se lo presentamos al cliente o usuario final, sabiendo que funciona correctamente y responde a los requerimientos solicitados en su momento. Esta etapa es muy importante no so´lo por representar la aceptacio´n o no del proyecto por parte del cliente o usuario final sino por las mu´ltiples dificultades que suele presentar en la pra´ctica, alarga´ndose excesivamente y provocando costos no previstos.&lt;/li&gt;
+  &lt;li&gt;En cada una de las etapas de un modelo de ciclo de vida, se pueden establecer una serie de objetivos, tareas y actividades que lo caracterizan.&lt;/li&gt;
+  &lt;li&gt;Expresio´n de necesidades: esta etapa tiene como objetivo el armado de un documento en el cual se reflejan los requerimientos y funcionalidades que ofrecera´ al usuario el sistema a implementar (que´, y no co´mo, se va a implementar).&lt;/li&gt;
+  &lt;li&gt;Especificaciones: formalizamos los requerimientos; el documento obtenido en la etapa anterior se tomara´ como punto de partida para esta etapa.&lt;/li&gt;
+  &lt;li&gt;Ana´lisis: determinamos los elementos que intervienen en el sistema a desarrollar, su estructura, relaciones, evolucio´n temporal, funcionalidades, tendremos una descripcio´n clara de que´ producto vamos a construir, que´ funcionalidades aportara´ y que´ comportamiento tendra´.&lt;/li&gt;
+  &lt;li&gt;Disen~o: ya sabemos que´ hacer, ahora tenemos que determinar co´mo debemos hacerlo (¿co´mo debe ser construido el sistema en cuestion?; definimos en detalle entidades y relaciones de las bases de datos, seleccionamos el lenguaje que vamos a utilizar, el Sistema Gestor de Bases de Datos, etc.).&lt;/li&gt;
+  &lt;li&gt;Implementacio´n: empezamos a codificar algoritmos y estructuras de datos, de- finidos en las etapas anteriores, en el correspondiente lenguaje de programacio´n o para un determinado sistema gestor de bases de datos. En muchos proyectos se pasa directamente a esta etapa; son proyectos muy arriesgados que adoptan un modelo de ciclo de vida de code &amp;amp; fix (codificar y corregir) donde se eliminan las etapas de especificaciones, ana´lisis y disen~o con la consiguiente pe´rdida de control sobre la gestio´n del proyecto.&lt;/li&gt;
+  &lt;li&gt;Debugging: el objetivo de esta etapa es garantizar que nuestro programa no contiene errores de disen~o o codificacio´n. En esta etapa no deseamos saber si nuestro programa realiza lo que solicito´ el usuario, esa tarea le corresponde a la etapa de implementacio´n. En e´sta deseamos encontrar la mayor cantidad de errores. Todas los programas contienen errores: encontrarlos es cuestio´n de tiempo. Lo ideal es encontrar la mayori´a, si no todos, en esta etapa. Tambie´n se pueden agregar testeos de performance.&lt;/li&gt;
+  &lt;li&gt;Validacio´n: esta etapa tiene como objetivo la verificacio´n de que el sistema desarrollado cumple con los requerimientos expresados inicialmente por el cliente y que han dado lugar al presente proyecto. En muchos proyectos las etapas de validacio´n y debugging se realizan en paralelo por la estrecha relacio´n que llevan. Sin embargo, tenemos que evitar la confusio´n: podemos realizarlos en paralelo, pero no como una u´nica etapa.&lt;/li&gt;
+  &lt;li&gt;Evolucio´n: en la mayori´a de los proyectos se considera esta etapa como Mantenimiento y evolucio´n, y se le asigna, no so´lo el agregado de nuevas funcionalidades (evolucio´n); sino la correccio´n de errores que surgen (mantenimiento). En la pra´ctica esta denominacio´n no es del todo erro´nea, ya que es posible que aun luego de una etapa de debugging y validacio´n exhaustiva, se filtren errores.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Ámbito general del ciclo de vida del SW</summary></entry><entry><title type="html">Novena Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Novena-Clase.html" rel="alternate" type="text/html" title="Novena Clase" /><published>2019-12-15T20:33:47-05:00</published><updated>2019-12-15T20:33:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Novena-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Novena-Clase.html">&lt;h1 id=&quot;modelos-de-procesos-de-software&quot;&gt;Modelos de procesos de software&lt;/h1&gt;
+
+&lt;h2 id=&quot;el-modelo-de-cascada&quot;&gt;El modelo de cascada&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Modelo de Plan-impulsado. Fases separadas y distintas de especificación y desarrollo.
+    &lt;h2 id=&quot;el-desarrollo-incremental&quot;&gt;El desarrollo incremental&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Especificación, desarrollo y validación se intercalan. Puede ser el plan impulsado o ágil.
+    &lt;h2 id=&quot;ingeniería-de-software-orientado-a-reutilización&quot;&gt;Ingeniería de software orientado a reutilización&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;El sistema se ensambla a partir de componentes existentes. Puede ser el plan impulsado o ágil.
+    &lt;h2 id=&quot;modelo-de-cascada&quot;&gt;Modelo de Cascada&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Las fases están identificadas por separado:
+    &lt;ul&gt;
+      &lt;li&gt;El análisis  y definición de requerimientos&lt;/li&gt;
+      &lt;li&gt;Diseño del sistema y software.&lt;/li&gt;
+      &lt;li&gt;Pruebas de implementación de unidades&lt;/li&gt;
+      &lt;li&gt;Integración y pruebas del sistema&lt;/li&gt;
+      &lt;li&gt;Operación y mantenimiento&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;El principal inconveniente del modelo de la cascada es la dificultad de acomodar el cambio después de que está en marcha el proceso. En principio, una fase tiene que ser completada antes de pasar a la siguiente fase.
+    &lt;h2 id=&quot;desarrollo-incremental&quot;&gt;Desarrollo incremental&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Beneficios:
+    &lt;ul&gt;
+      &lt;li&gt;El costo de atender las necesidades cambiantes de los clientes se reduce.&lt;/li&gt;
+      &lt;li&gt;La cantidad de análisis y la documentación que tiene que ser hecho de nuevo es mucho menor que la que se requiere con el modelo de cascada.&lt;/li&gt;
+      &lt;li&gt;Es más fácil obtener retroalimentación de los clientes en el trabajo de desarrollo que se ha hecho.
+        &lt;ul&gt;
+          &lt;li&gt;Los clientes pueden hacer comentarios sobre las manifestaciones del software y ver cuánto se ha implementado.
+            &lt;h2 id=&quot;espiral&quot;&gt;Espiral&lt;/h2&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Definición
+    &lt;ul&gt;
+      &lt;li&gt;Es un modelo de ciclo de vida desarrollado por Barry Boehm en 1988.&lt;/li&gt;
+      &lt;li&gt;Las actividades de este modelo son una espiral, cada bucle es una actividad.&lt;/li&gt;
+      &lt;li&gt;Las actividades no están fijadas a prioridad, sino que las siguientes se eligen en función del análisis de riesgo, comenzando por el bucle interior.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Principios básicos
+    &lt;ul&gt;
+      &lt;li&gt;Decidir qué problema se quiere resolver antes de viajar a resolverlo.&lt;/li&gt;
+      &lt;li&gt;Examinar tus múltiples alternativas de acción y elegir una de las más convenientes.&lt;/li&gt;
+      &lt;li&gt;Evaluar qué tienes hecho y qué tienes que haber aprendido después de hacer algo.&lt;/li&gt;
+      &lt;li&gt;No ser tan ingenuo para pensar que el sistema que estás construyendo será “EL” sistema que el cliente necesita, y&lt;/li&gt;
+      &lt;li&gt;Conocer (comprender) los niveles de riesgo, que tendrás que tolerar.
+        &lt;h2 id=&quot;desarrollo-rápido-de-aplicaciones-dra&quot;&gt;Desarrollo Rápido de Aplicaciones (DRA)&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Definición
+    &lt;ul&gt;
+      &lt;li&gt;Es un modelo de proceso del ciclo de vida clásico que enfatiza un ciclo de vida de desarrollo extremadamente corto.&lt;/li&gt;
+      &lt;li&gt;El modelo DRA es una adaptación a alta velocidad del ciclo de vida clásico en el que se logra el desarrollo rápido utilizando un enfoque de construcción basado en componentes. Si se comprenden bien los requisitos y se limita el ámbito del proyecto, el proceso DRA permite al equipo de desarrollo crear un sistema completamente funcional dentro de períodos cortos de tiempo.
+        &lt;h2 id=&quot;orientados-a-la-reutilización&quot;&gt;Orientados a la reutilización&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Definición
+    &lt;ul&gt;
+      &lt;li&gt;Esta aproximación se basa en la existencia de un número significativo de elementos reutilizables. El proceso de desarrollo, se centra en la integración de estos elementos en un sistema, en lugar de desarrollarlo desde cero.&lt;/li&gt;
+      &lt;li&gt;Incorpora muchas características del modelo en espiral. Es evolutivo por naturaleza.
+        &lt;h2 id=&quot;orientado-a-objetos-oo&quot;&gt;Orientado a Objetos (OO)&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Definición&lt;/li&gt;
+  &lt;li&gt;El modelo orientado a objetos utiliza el paradigma de la orientación a objetos para el desarrollo de software.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Este enfoque realiza la construcción de modelos de un sistema por medio de la identificación y la especificación de un conjunto de objetos relacionados, que colaboran entre si de acuerdo a los requerimientos establecidos para el sistema de objetos.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Características&lt;/li&gt;
+  &lt;li&gt;EL modelado Orientado a Objetos está basado en el paradigma orientado a objetos.&lt;/li&gt;
+  &lt;li&gt;Trata el almacenamiento de objetos (persistencia de los objetos).&lt;/li&gt;
+  &lt;li&gt;Define un lenguaje para le definición y manipulación de objetos.&lt;/li&gt;
+  &lt;li&gt;Incluye mecanismos para optimizar el acceso (Indexación y Clustering), el control de la concurrencia, seguridad y gestión de usuarios, facilidad de consulta y recuperación ante fallos.&lt;/li&gt;
+  &lt;li&gt;Debido a que es un esquema orientado a objetos incluye: Encapsulamiento, herencia, polimorfismo, etc.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Modelos de procesos de software</summary></entry><entry><title type="html">Decima Clase</title><link href="http://localhost:4000/jekyll/update/2019/12/15/Decima-Clase.html" rel="alternate" type="text/html" title="Decima Clase" /><published>2019-12-15T20:32:47-05:00</published><updated>2019-12-15T20:32:47-05:00</updated><id>http://localhost:4000/jekyll/update/2019/12/15/Decima-Clase</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/15/Decima-Clase.html">&lt;h1 id=&quot;metodologías-ágiles&quot;&gt;Metodologías Ágiles&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Definición
+    &lt;ul&gt;
+      &lt;li&gt;Cualquier proceso del software ágil se caracteriza por la forma en la que aborda cierto número de suposiciones clave [Fow02] acerca de la mayoría de proyectos de software:
+        &lt;ol&gt;
+          &lt;li&gt;Es difícil predecir qué requerimientos de software persistirán y cuáles cambiarán. También es difícil pronosticar cómo cambiarán las prioridades del cliente a medida que avanza el proyecto.&lt;/li&gt;
+          &lt;li&gt;Para muchos tipos de software, el diseño y la construcción están imbricados.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Procesos Ágiles
+    &lt;ul&gt;
+      &lt;li&gt;Principios
+        &lt;ol&gt;
+          &lt;li&gt;La Alianza Ágil (véase [Agi03]), [Fow01]) define 12 principios de agilidad para aquellos que la quieran alcanzar:&lt;/li&gt;
+          &lt;li&gt;La prioridad más alta es satisfacer al cliente a través de la entrega pronta y continua de software valioso.&lt;/li&gt;
+          &lt;li&gt;Son bienvenidos los requerimientos cambiantes, aun en una etapa avanzada del desarrollo.&lt;/li&gt;
+          &lt;li&gt;Los procesos ágiles dominan el cambio para provecho de la ventaja competitiva del cliente.&lt;/li&gt;
+          &lt;li&gt;Entregar con frecuencia software que funcione, de dos semanas a un par de meses, de preferencia lo más pronto que se pueda.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Factores Humanos
+        &lt;ul&gt;
+          &lt;li&gt;“El desarrollo ágil se centra en los talentos y habilidades de los individuos, y adapta el proceso a personas y equipos específicos.”&lt;/li&gt;
+          &lt;li&gt;Competencia. En un contexto de desarrollo ágil (así como en la ingeniería de software), la “competencia” incluye el talento innato, las habilidades específicas relacionadas con el software y el conocimiento general del proceso que el equipo haya elegido aplicar.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Enfoque común. Aunque los miembros del equipo ágil realicen diferentes tareas y aporten habilidades distintas al proyecto, todos deben centrarse en una meta: entregar al cliente en la fecha prometida un incremento de software que funcione.&lt;/li&gt;
+      &lt;li&gt;Colaboración. La ingeniería de software (sin importar el proceso) trata de evaluar, analizar y usar la información que se comunica al equipo de software; crear información que ayudará a todos los participantes a entender el trabajo del equipo; y generar información (software de cómputo y bases de datos relevantes) que aporten al cliente valor del negocio. Para efectuar estas tareas, los miembros del equipo deben colaborar, entre sí y con todos los participantes.&lt;/li&gt;
+      &lt;li&gt;Habilidad para tomar decisiones. Cualquier equipo bueno de software (incluso los equipos ágiles) debe tener libertad para controlar su destino.&lt;/li&gt;
+      &lt;li&gt;Capacidad para resolver problemas difusos. Los gerentes de software deben reconocer que el equipo ágil tendrá que tratar en forma continua con la ambigüedad y que será sacudido de manera permanente por el cambio.&lt;/li&gt;
+      &lt;li&gt;Confianza y respeto mutuos. El equipo ágil debe convertirse en un equipo “pegado”. Un equipo pegado tiene la confianza y respeto que son necesarios para hacer “su tejido tan fuerte que el todo es más que la suma de sus partes” [DeM98].&lt;/li&gt;
+      &lt;li&gt;Organización propia. En el contexto del desarrollo ágil, la organización propia implica tres cosas:
+        &lt;ol&gt;
+          &lt;li&gt;el equipo ágil se organiza a sí mismo para hacer el trabajo,&lt;/li&gt;
+          &lt;li&gt;el equipo organiza el proceso que se adapte mejor a su ambiente local,&lt;/li&gt;
+          &lt;li&gt;el equipo organiza la programación del trabajo a fin de que se logre del mejor modo posible la entrega del incremento de software.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Metodologías Ágiles</summary></entry></feed>
